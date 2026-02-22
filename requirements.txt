@@ -1,0 +1,11 @@
+# AutoResume — dependency list
+#
+# REQUIRED for the default (local) backend:
+sentence-transformers>=2.2.0   # all-MiniLM-L6-v2; ~80 MB download on first run
+                               # pulls in torch, transformers, numpy automatically
+
+# OPTIONAL — only needed if you use --backend openai:
+# openai>=1.0.0                # pip install openai  +  export OPENAI_API_KEY=sk-...
+
+# OPTIONAL — testing:
+# pytest>=7.0
