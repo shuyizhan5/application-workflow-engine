@@ -1,0 +1,17 @@
+matches:
+  - trigger: ":auth1"
+    replace: "F-1 student eligible for CPT/OPT; will require visa sponsorship after OPT."
+  - trigger: ":whyq"
+    replace: "I am excited about this role because it aligns with my experience in quantitative research and my interest in building models that have real impact."
+  - trigger: ":lead"
+    replace: "I led a team of three to build a portfolio allocation project; I coordinated tasks, validated models, and presented results to stakeholders."
+  - trigger: ":fail"
+    replace: "I shipped an experiment with a data leakage issue, fixed the pipeline, added tests, and documented the change to prevent recurrence."
+  - trigger: ":addrU"
+    replace: "123 UCLA Ave, Los Angeles, CA 90095"
+  - trigger: ":salary"
+    replace: "I am seeking a market-competitive salary for this role and location; open to discussing total compensation."
+  - trigger: ":clear"
+    replace: "No security clearance currently held."
+
+# 使用说明：将此文件的内容合并到 espanso 的 match 配置，例如复制到 ~/.config/espanso/match/ 或者使用 espanso 的 `espanso restart` 生效。
